@@ -1,5 +1,7 @@
+#Junk
 .DS_Store
-.vscode
+.vscode/
+.idea/
 
 # Logs
 logs

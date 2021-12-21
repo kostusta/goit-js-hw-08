@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/kostusta/goit-js-hw-08.git",
+  "homepage": "https://kostusta.github.io/goit-js-hw-08",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-08.git/"
+    "build": "parcel build src/index.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",

@@ -20,9 +20,11 @@ function onFeedbackFormInput(event) {
 function onFeedbackFormSubmit(event) {
   event.preventDefault();
 
-  console.log(JSON.parse(localStorage.getItem(STORAGE_KEY)));
-  localStorage.removeItem(STORAGE_KEY);
-  event.currentTarget.reset();
+  if (localStorage.getItem(STORAGE_KEY)) {
+    console.log(JSON.parse(localStorage.getItem(STORAGE_KEY)));
+    localStorage.removeItem(STORAGE_KEY);
+    event.currentTarget.reset();
+  }
 }
 
 function onPageLoadHandler() {
